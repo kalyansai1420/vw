@@ -1,0 +1,84 @@
+.list{
+    color: #fff;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    width: 100%;
+    margin: 0 auto;
+   
+    
+}
+.list h2{
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    margin-left: 100px;
+    font-weight: 500;  
+}
+.cards{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 0 auto ;
+    align-items: center;
+    justify-content: space-around;
+}
+.port-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.port-btn .btn {
+    font-size: 0.8em;
+    color: #fff;
+    background: #222020;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);    display: inline;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+
+ 
+@media only screen and (max-width: 1100px) {
+   
+    .cards{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .list h2{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .list{
+        height: fit-content !important;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: fit-content;
+        width: 100vw;
+    }
+  
+    .list h2{
+        font-size: 1.1em;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .port-btn .btn{
+        font-size: 0.65em;
+        padding: 7px 25px;
+    }
+    
+    
+}

@@ -1,0 +1,131 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.productdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #000;
+  color: #fff;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+.prod__title h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.prod {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+.prod__left {
+  /* padding: 20px; */
+  position: relative;
+  width: 60%;
+}
+.prod__left .img-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.prod__left .img-box img {
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.prod__right {
+  padding: 20px;
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.prod__right h2 {
+  font-size: 0.9em;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.prod__content {
+  width: 80%;
+  /* background-color: #9897; */
+  /* padding: 20px; */
+  margin-bottom: 100px;
+}
+.prod__content h2 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.prod__content p {
+  width: 100%;
+  font-size: 0.9em;
+  font-weight: 100;
+}
+.img_gallery_1 {
+  width: 80% !important ;
+}
+.img_gallery_1 .img_1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  /* border-radius: 10px; */
+  object-fit: contain;
+  max-height: 500px;
+}
+.img_gallery_2 {
+  margin-top: 50px;
+}
+.img_gallery_2 .img_2 {
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  height: 250px;
+  width: 80%;
+  /* object-fit: contain; */
+}
+
+@media only screen and (max-width: 1025px) {
+}
+
+@media only screen and (max-width: 500px) {
+  .prod__title h2 {
+    font-size: 1.5em;
+  }
+  .prod {
+    display: flex;
+    flex-direction: column;
+  }
+  .prod__left {
+    width: 100%;
+  }
+  .prod__right {
+    width: 100%;
+  }
+  .prod__right h2 {
+    margin-left: 0;
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+  .prod__content h2{
+    font-size: 1.5em;
+
+  }
+  .prod__content p {
+    font-size: 1em;
+  }
+}

@@ -12,17 +12,17 @@ const ContactPage = () => {
                 <div className="contact__top__left">
                     <h2>Location :</h2>
                     <h3>
-                    Flat no 1403 ,block no 1, <br />
-                    gaythri towers ,opp : kalki gardens, <br />
-                madinaguda ,miyapur ,500050 <br />
-                Land mark : near dr kallam
-                anji reddy foundation
+                    Flat No : 1403 , Block No : 1 , <br />
+                    Gaythri Towers ,Opp : Kalki Gardens, <br />
+                Madinaguda , Miyapur - 500050 <br />
+                Land mark : Near Dr Kallam
+                Anji Reddy Foundation
                         <br />
                         Hyderabad,Telangana
                     </h3>
                 </div>
                 <div className="contact__top__right">
-                    <a href="mailto:vennalaworks25@gmail.com"><p>vennalaworks25@gmail.com</p></a>
+                    <a href="mailto:vennelaworks25@gmail.com"><p>vennelaworks25@gmail.com</p></a>
                     <a href="tel:+919618606060">
                         <p>
                             <i class="fa fa-phone" aria-hidden="true"></i> +91 96186 06060

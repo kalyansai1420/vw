@@ -16,7 +16,7 @@ const Portfolio = ({list}) => {
         return () => clearTimeout(timing);
     }, []);
 
-    console.log(portcard)
+    // console.log(portcard)
 
      
     return (

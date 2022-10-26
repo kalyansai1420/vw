@@ -28,7 +28,7 @@ const ProductDetails = (item) => {
   return (
     < div className="productdetails" >
     <div className="prod__title">
-      <h2>{ data.title}</h2>
+      <h2>Work Type : { data.title}</h2>
     </div>
 
     <div className="prod" >

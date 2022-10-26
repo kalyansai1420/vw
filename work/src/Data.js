@@ -2,15 +2,11 @@ const Data = [{
     items: [{
         id: 0,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/harsha%2Fharsha%20(6).jpeg?alt=media&token=7d74c60e-f63f-4e15-a035-4903fd90653b',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'SMR Vinay Fountainhead',
-        projecttitle:'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        //areacard:'1900 SQ ft',
         area: '1900sqft',
         owner: 'Mr Harsha',
-        date:'2020',
+        date: '2020',
         content: 'The overall feel of the place is given top priority. When it came to redecorating the home, the main focus was on complementary interiors with unobtrusive furnishings. The complete interior plan has consistent lines, well-matched geometrical forms, and modern but local materials; such elements give the house character and coherence. This designers characteristic feature can be seen throughout the area, giving the house a unique atmosphere.',
         images: [
             {
@@ -29,19 +25,43 @@ const Data = [{
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/harsha%2Fharsha%20(7).jpeg?alt=media&token=40efd824-79b4-4f23-9bff-5fc6b7208e12'
             }, {
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/harsha%2Fharsha%20(8).jpeg?alt=media&token=7d4009be-a355-4a80-929d-5031af85168c'
-            }, 
+            },
         ]
     },
     {
         id: 1,
+        image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0003.jpg?alt=media&token=698b947b-6396-46a1-a278-356c8f67cebb',
+        title: 'Commercial',
+        location: 'Hyderbad',
+
+       
+        area: '1840sqft',
+        owner: 'RRayal Consultancy',
+        date: '2022',
+
+        content: 'The contemporary interiors are not only appealing to the eye, but they also highlight the spaces utility and soul. The colour palette and material selection for the area have been given careful consideration. The same can be said for the rest of the house.',
+        images: [{
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0002.jpg?alt=media&token=cc758082-e1e0-41b8-a10e-ef620394b4b4'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0004.jpg?alt=media&token=d7f26464-4919-42ed-bc4e-b58473257c64'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0005.jpg?alt=media&token=2247a551-af2e-444c-a3a2-cc8e40ab856c'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0006.jpg?alt=media&token=64c68217-c56f-4fa1-9117-ced3737983f0'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0007.jpg?alt=media&token=449cfe17-502d-4fc2-86b8-638c52651c47'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/tarun%2FSchematic%20Presentation_RRayal%20Consultancy%20Services_15.10.2022._page-0008.jpg?alt=media&token=c167ac8d-8cd2-4265-b5f9-1aacac621ff0'
+        },
+        ]
+    },
+    {
+        id: 2,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(1).jpeg?alt=media&token=d9d885e5-15c8-47a0-bb38-1a948c5c6a2b',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'Vajras Jasmine County,Financial District',
-    
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+
+       
         area: '1840sqft',
         owner: 'Mr Karthik',
         date: '2019',
@@ -49,28 +69,25 @@ const Data = [{
         content: 'The contemporary interiors are not only appealing to the eye, but they also highlight the spaces utility and soul. The colour palette and material selection for the area have been given careful consideration. The same can be said for the rest of the house.',
         images: [{
             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(1).jpeg?alt=media&token=d9d885e5-15c8-47a0-bb38-1a948c5c6a2b'
-        },  {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(3).jpeg?alt=media&token=c0a8e30d-1142-496b-a4b7-411e387978c5'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(4).jpeg?alt=media&token=2539ff1c-398b-4127-b2b3-9f344b0fc31c'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(5).jpeg?alt=media&token=9ea18fb5-4c81-4c62-a562-1c6cb861c904'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(6).jpeg?alt=media&token=3e8d12c0-7021-4bce-98ac-56934dc0c4dc'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(7).jpeg?alt=media&token=2e206080-9157-45af-95a3-45ef8333c741'
-            },
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(3).jpeg?alt=media&token=c0a8e30d-1142-496b-a4b7-411e387978c5'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(4).jpeg?alt=media&token=2539ff1c-398b-4127-b2b3-9f344b0fc31c'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(5).jpeg?alt=media&token=9ea18fb5-4c81-4c62-a562-1c6cb861c904'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(6).jpeg?alt=media&token=3e8d12c0-7021-4bce-98ac-56934dc0c4dc'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/karthik%2Fkarthik%20(7).jpeg?alt=media&token=2e206080-9157-45af-95a3-45ef8333c741'
+        },
         ]
     },
     {
-        id: 2,
+        id: 3,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(1).jpeg?alt=media&token=c1310ce2-4c54-416c-99eb-066090b309a5',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'Ameenpur,Hyderbad',
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+       
         area: '1240sqft',
         owner: 'Mr Pawan',
         date: '2022',
@@ -79,31 +96,28 @@ const Data = [{
         images: [{
             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(1).jpeg?alt=media&token=c1310ce2-4c54-416c-99eb-066090b309a5'
         }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(2).jpeg?alt=media&token=96b52eca-9e88-4a45-8bf4-0e0109c9d577'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(3).jpeg?alt=media&token=20ea38f3-6ed1-47cb-ba11-0c3176d6741b'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(4).jpeg?alt=media&token=107e652f-301e-405e-8a9c-ff4d614c5568'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(5).jpeg?alt=media&token=61e2b489-53ae-430f-a5e4-74728d1359e4'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(6).jpeg?alt=media&token=489bdf8a-05e7-4be6-8adf-686085f2b6a9'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(7).jpeg?alt=media&token=c941fde0-2b45-42d6-bfa1-56c1afe8eb54'
-            }, {
-                bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(8).jpeg?alt=media&token=824b5aea-1bbf-4abf-8c3a-78149f1c0ab1'
-            }, 
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(2).jpeg?alt=media&token=96b52eca-9e88-4a45-8bf4-0e0109c9d577'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(3).jpeg?alt=media&token=20ea38f3-6ed1-47cb-ba11-0c3176d6741b'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(4).jpeg?alt=media&token=107e652f-301e-405e-8a9c-ff4d614c5568'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(5).jpeg?alt=media&token=61e2b489-53ae-430f-a5e4-74728d1359e4'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(6).jpeg?alt=media&token=489bdf8a-05e7-4be6-8adf-686085f2b6a9'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(7).jpeg?alt=media&token=c941fde0-2b45-42d6-bfa1-56c1afe8eb54'
+        }, {
+            bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/pawan%2Fpawan%20(8).jpeg?alt=media&token=824b5aea-1bbf-4abf-8c3a-78149f1c0ab1'
+        },
         ]
     },
     {
-        id: 3,
+        id: 4,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/prahastha%2Fprahastha%20(3).jpeg?alt=media&token=52ad28af-0719-43fc-ae10-c8fd7448d7f1',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'Habsiguda,hyderbad',
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+       
         area: '3000sft',
         owner: 'Mr Prahastha',
         date: '2019',
@@ -123,14 +137,11 @@ const Data = [{
         ]
     },
     {
-        id: 4,
+        id: 5,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/raghu%2Fraghu%20(5).jpeg?alt=media&token=5b761846-f541-4633-af46-3dbdf8969aaf',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'Prestige ,Wipro circle,hyderbad',
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+       
         area: '2400sft',
         owner: 'Mr Raghu',
         date: '2022',
@@ -153,18 +164,15 @@ const Data = [{
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/raghu%2Fraghu%20(7).jpeg?alt=media&token=de81c4d7-f8da-4c0c-855a-0716285ceeb4'
             }, {
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/raghu%2Fraghu%20(8).jpeg?alt=media&token=b5d21b9a-33f1-47fe-8eba-caa0e05e1c26'
-            }, 
+            },
         ]
     },
     {
-        id: 5,
+        id: 6,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/prasad%2Fprasad%20(6).jpeg?alt=media&token=9aef47b9-9406-40c4-8e01-e71831d9c499',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'SMR Vinay Fountainhead,hyderbad',
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+       
         area: '1840sqft',
         owner: 'Mr Prasad',
         date: '2021',
@@ -184,18 +192,15 @@ const Data = [{
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/prasad%2Fprasad%20(6).jpeg?alt=media&token=9aef47b9-9406-40c4-8e01-e71831d9c499'
             }, {
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/prasad%2Fprasad%20(7).jpeg?alt=media&token=585022ff-5e9e-4052-b211-027b5e2e519d'
-            }, 
+            },
         ]
     },
     {
-        id: 6,
+        id: 7,
         image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sanusha%2Fsanusha%20(3).jpeg?alt=media&token=eaf23f3f-e66c-4050-a315-208f97cd0fec',
-        title: 'Work Type',
+        title: 'Residential',
         location: 'Bachupally,hyderbad',
-        projecttitle: 'Project Title',
-        worktype: 'Work Type',
-        locationcard: 'LOCATION',
-        areacard: 'AREA SQ ft',
+       
         area: '2100sqft',
         owner: 'Mrs S Anusha',
         date: '2020',
@@ -220,151 +225,10 @@ const Data = [{
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sanusha%2Fsanusha%20(8).jpeg?alt=media&token=b91c5f80-668d-407b-a068-6df90e884d07'
             }, {
                 bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sanusha%2Fsanusha%20(9).jpeg?alt=media&token=44d05f04-a1f8-449f-8246-695e5eeb3b59'
-            }, 
+            },
         ]
     },
-    // {
-    //     id: 7,
-    //     image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(4).jpeg?alt=media&token=01cf7b9a-50d2-41d4-bbbc-f0708a21b63d',
-    //     title: 'Work Type',
-    //     location: 'Gulmohar Park,hyderbad',
-    //     projecttitle: 'Project Title',
-    //     worktype: 'Work Type',
-    //     locationcard: 'LOCATION',
-    //     areacard: 'AREA SQ ft',
-    //     area: '1900sqft',
-    //     owner: 'Mr Sridhar',
-    //     date: '2020',
 
-    //     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati, sint incidunt provident molestiae do Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptate optio illo numquam suscipit dolores earum cum, iusto unde totam sed rem sequi quidem quod magni nisi nihil dolorem impedit.',
-    //     images: [
-    //         {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(1).jpeg?alt=media&token=24957601-ea1d-48da-8eb9-7f20b75af52a'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(2).jpeg?alt=media&token=496bf4e7-3758-4779-bef1-312c4484f839'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(3).jpeg?alt=media&token=7c8f78be-e091-4a81-a6b7-be78fa6c867f'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(4).jpeg?alt=media&token=01cf7b9a-50d2-41d4-bbbc-f0708a21b63d'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(5).jpeg?alt=media&token=ca315678-d471-43e8-ab8f-07a6ec8184ba'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(6).jpeg?alt=media&token=e6015192-1368-467f-b751-40ec0cc1089c'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/sridhar%2Fsridhar%20(7).jpeg?alt=media&token=250d60fa-f070-4961-92c9-51ae24b35ade'
-    //         },  
-    //     ]
-    // },
-    // {
-    //     id: 8,
-    //     image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(2).jpeg?alt=media&token=03a93c7e-b8b0-41ae-bf77-4544dfa6242f',
-    //     title: 'Work Type',
-    //     location: 'Vajras Jasmine County,Financial District',
-    //     projecttitle: 'Project Title',
-    //     worktype: 'Work Type',
-    //     locationcard: 'LOCATION',
-    //     areacard: 'AREA SQ ft',
-    //     area: '1900sqft',
-    //     owner: 'Mr Surya Shashank',
-    //     date: '2019',
-
-    //     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati, sint incidunt provident molestiae do Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptate optio illo numquam suscipit dolores earum cum, iusto unde totam sed rem sequi quidem quod magni nisi nihil dolorem impedit.',
-    //     images: [
-    //         {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(1).jpeg?alt=media&token=1746c3b6-90f9-4a5f-a88e-c0c8267deecf'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(2).jpeg?alt=media&token=03a93c7e-b8b0-41ae-bf77-4544dfa6242f'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(3).jpeg?alt=media&token=b8828667-8e7a-495d-a818-51ccd450e7f6'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(4).jpeg?alt=media&token=d81eb28d-b12b-459f-bf38-45ab1f514359'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(5).jpeg?alt=media&token=537f743c-b689-4687-a3e4-0f054516f392'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(6).jpeg?alt=media&token=51bd4cbf-f1ff-46a2-8f96-6decae805a71'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/suryashashank%2Fsuryashashank%20(7).jpeg?alt=media&token=2a559781-c1bf-4b53-944e-8fa9c649033b'
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 9,
-    //     image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(8).jpeg?alt=media&token=2c9d78a9-72c9-4dec-854b-9f080dcc3f88',
-    //     title: 'Work Type',
-    //     location: 'Vajras Jasmine County,Financial District',
-    //     projecttitle: 'Project Title',
-    //     worktype: 'Work Type',
-    //     locationcard: 'LOCATION',
-    //     areacard: 'AREA SQ ft',
-    //     area: '1840sqft',
-    //     owner: 'Mr Srinivas',
-    //     date: '2019',
-
-    //     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati, sint incidunt provident molestiae do Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptate optio illo numquam suscipit dolores earum cum, iusto unde totam sed rem sequi quidem quod magni nisi nihil dolorem impedit.',
-    //     images: [
-    //         {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(1).jpeg?alt=media&token=7ca1548c-475a-4b60-a321-bb663798c397'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(2).jpeg?alt=media&token=c2ff4bdf-0b50-48bf-a780-49a25a5b1609'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(3).jpeg?alt=media&token=3899e5e3-ba6e-4832-b508-c93a233339ab'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(4).jpeg?alt=media&token=a4fe478b-9dbc-4c33-8bc4-709b38550668'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(5).jpeg?alt=media&token=ea3112d9-2966-4e8a-b636-565104e98a3e'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(6).jpeg?alt=media&token=8ac4a19e-e758-4f2d-96f1-2640c86804d0'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(7).jpeg?alt=media&token=058da238-ce96-4a79-9621-a3eaf58aeed0'
-    //         },{
-    //             bannerImg1:'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/srinivas%2Fsrinivas%20(8).jpeg?alt=media&token=2c9d78a9-72c9-4dec-854b-9f080dcc3f88'
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 10,
-    //     image: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(6).jpeg?alt=media&token=e0d34b78-e761-4147-839a-c5d3c25acc17',
-    //     title: 'Work Type',
-    //     location: 'Vertex,hyderbad',
-    //     projecttitle: 'Project Title',
-    //     worktype: 'Work Type',
-    //     locationcard: 'LOCATION',
-    //     areacard: 'AREA SQ ft',
-    //     area: '1750sqft',
-    //     owner: 'Mr Ravi Kumar',
-    //     date: '2020',
-
-    //     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati, sint incidunt provident molestiae do Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptate optio illo numquam suscipit dolores earum cum, iusto unde totam sed rem sequi quidem quod magni nisi nihil dolorem impedit.',
-    //     images: [
-    //         {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(1).jpeg?alt=media&token=9e2f486f-0465-4b99-81ab-244f3690c27d'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(2).jpeg?alt=media&token=45c52e4e-5997-4e05-8114-67176ff13410'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(3).jpeg?alt=media&token=2c80b0eb-401c-4a61-a21f-a6e7341d50f1'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(4).jpeg?alt=media&token=b72fbba5-6cae-46f8-96ff-675a1b621aee'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(5).jpeg?alt=media&token=3e762852-0354-4f8e-8252-864e8c3715fe'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(6).jpeg?alt=media&token=e0d34b78-e761-4147-839a-c5d3c25acc17'
-    //         }, {
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(7).jpeg?alt=media&token=8d5e1eac-e826-426b-bac9-e97b5f1379e4'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(8).jpeg?alt=media&token=e7e3bb5f-bd82-4e48-bda8-c814f69865d3'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(9).jpeg?alt=media&token=853d88e0-5c20-45c8-b7dd-f533895e7544'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(10).jpeg?alt=media&token=6dd7c771-5e07-4582-918c-81cbb44644ef'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(11).jpeg?alt=media&token=8e755e3c-a73a-4b20-a844-8ffaa5f67dfa'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(12).jpeg?alt=media&token=7ae1c9a9-d2ad-490e-81dc-c00fd11cfbe6'
-    //         },{
-    //             bannerImg1: 'https://firebasestorage.googleapis.com/v0/b/vennelaworks-c79d8.appspot.com/o/ravi%2Fravi%20(13).jpeg?alt=media&token=369acdd6-584e-466e-a5a4-2a300310e516'
-    //         },
-    //     ]
-    // },
     ],
 },];
 

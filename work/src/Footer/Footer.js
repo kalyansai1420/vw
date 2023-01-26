@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import { NavLink } from "react-router-dom";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -50,9 +50,9 @@ const Footer = () => {
                         </NavLink>
                     </li>
                 </div>
-               
-                    
-               
+
+
+
             </div>
             <div className="footer__right">
                 <div className="footer__right__title">
@@ -92,7 +92,7 @@ const Footer = () => {
                             }
                         </Media>
                     </a>
-                    <a href="tel:+919618606060" target="_blank">
+                    <a href="tel:+919581662666" target="_blank">
                         <Media>
                             {({ breakpoints, currentBreakpoint }) =>
                                 breakpoints[currentBreakpoint] > breakpoints.desktop ? (
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
 
         </div>
-        
+
     )
 }
 

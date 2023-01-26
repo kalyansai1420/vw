@@ -12,23 +12,23 @@ const ContactPage = () => {
                 <div className="contact__top__left">
                     <h2>Location :</h2>
                     <h3>
-                    Flat No : 1403 , Block No : 1 , <br />
-                    Gaythri Towers ,Opp : Kalki Gardens, <br />
-                Madinaguda , Miyapur - 500050 <br />
-                Land mark : Near Dr Kallam
-                Anji Reddy Foundation
+                        Flat No : 1403 , Block No : 1 , <br />
+                        Gaythri Towers ,Opp : Kalki Gardens, <br />
+                        Madinaguda , Miyapur - 500050 <br />
+                        Land mark : Near Dr Kallam
+                        Anji Reddy Foundation
                         <br />
                         Hyderabad,Telangana
                     </h3>
                 </div>
                 <div className="contact__top__right">
                     <a href="mailto:vennelaworks25@gmail.com"><p>vennelaworks25@gmail.com</p></a>
-                    <a href="tel:+919618606060">
+                    <a href="tel:+919581662666">
                         <p>
-                            <i class="fa fa-phone" aria-hidden="true"></i> +91 96186 06060
+                            <i class="fa fa-phone" aria-hidden="true"></i> +91 958 166 2666
                         </p>
                     </a>
-                    
+
                 </div>
             </div>
             <div className="contact__title">
@@ -41,7 +41,7 @@ const ContactPage = () => {
                     </div >
                 </div>
                 <div className="contact__bottom__right">
-                    <ContactUs/>
+                    <ContactUs />
                 </div>
             </div>
         </div>

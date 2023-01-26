@@ -12,12 +12,12 @@ const Contact = () => {
                 <div className="contact__details">
                     <h3>Phone</h3>
                     <p>
-                        <a href="tel:+919618606060">
-                            +91 96186 06060
+                        <a href="tel:+919581662666">
+                            +91 958 166 2666
                         </a>
                     </p>
 
-                    
+
                     <br />
                     <h3>Email</h3>
                     <p>
@@ -25,16 +25,16 @@ const Contact = () => {
                             vennelaworks25@gmail.com
                         </a>
                     </p>
-                  
+
                 </div>
-                
+
 
             </div>
             <div className="contact__right">
                 <h2 className="contact-title"> Contact Form</h2>
-                <ContactUs/>
+                <ContactUs />
             </div>
-            
+
         </div>
     )
 }

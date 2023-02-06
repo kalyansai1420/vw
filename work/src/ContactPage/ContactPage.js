@@ -22,7 +22,7 @@ const ContactPage = () => {
                     </h3>
                 </div>
                 <div className="contact__top__right">
-                    <a href="mailto:vennelaworks25@gmail.com"><p>vennelaworks25@gmail.com</p></a>
+                    <a href="mailto:Info@vennelaworks.com"><p>Info@vennelaworks.com</p></a>
                     <a href="tel:+919581662666">
                         <p>
                             <i class="fa fa-phone" aria-hidden="true"></i> +91 958 166 2666
